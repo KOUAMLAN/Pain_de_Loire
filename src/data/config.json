@@ -1,0 +1,38 @@
+{
+  "boulangerie": {
+    "nom": "Le Fournil de Cosne",
+    "slogan": "Artisan depuis 1972",
+    "adresse": "12 Rue du Commerce, 58600 Cosne-Cours-sur-Loire",
+    "telephone": "03.86.28.12.34",
+    "horaires": [
+      { "jour": "Mar-Sam", "heures": "7h-19h30" },
+      { "jour": "Dim", "heures": "7h-13h" }
+    ],
+    "produits": [
+      {
+        "nom": "Baguette tradition",
+        "description": "Croustillante, levain naturel, farine locale.",
+        "image": "/images/baguette.jpg",
+        "ingredients": "Farine de blé, eau, sel de Guérande, levain maison"
+      },
+      {
+        "nom": "Pain aux noix",
+        "description": "Pain rustique généreux, noix du Périgord.",
+        "image": "/images/noix.jpg",
+        "ingredients": "Farine complète, noix, sel, levain"
+      },
+      {
+        "nom": "Brioche Cosnoise",
+        "description": "Spécialité moelleuse au beurre frais.",
+        "image": "/images/brioche.jpg",
+        "ingredients": "Farine, œufs, lait, beurre AOP, levure"
+      }
+    ],
+    "histoire": "Depuis 1972, notre famille façonne chaque matin une boulangerie conviviale et authentique au cœur de Cosne-Cours-sur-Loire. Attachés aux saveurs d’antan, nous pétrissons nos pains à la main dans la plus pure tradition.",
+    "valeurs": [
+      "Produits locaux & circuits courts",
+      "Pains façonnés à la main",
+      "Qualité et accueil chaleureux"
+    ]
+  }
+}

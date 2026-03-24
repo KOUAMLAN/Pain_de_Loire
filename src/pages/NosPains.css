@@ -1,0 +1,74 @@
+.nospains-section {
+  max-width: 1100px;
+  margin: 80px auto 40px auto;
+  padding: 2rem 1rem;
+  text-align: center;
+  font-family: 'Inter', Arial, sans-serif;
+}
+
+.nospains-title {
+  font-size: clamp(1.8rem, 5vw, 2.2rem);
+  color: #8B4513;
+  margin-bottom: 2rem;
+  font-weight: 700;
+}
+
+.nospains-grid {
+  display: grid;
+  grid-template-columns: repeat(2, 1fr);
+  gap: 1rem;
+}
+
+.nospains-card {
+  background: #fff;
+  border-radius: 12px;
+  overflow: hidden;
+  box-shadow: 0 4px 12px rgba(0,0,0,0.08);
+  display: flex; /* ✅ FIX IMPORTANT */
+  flex-direction: column;
+  align-items: center;
+  padding: 0.5rem;
+}
+
+.nospains-card img {
+  width: 100%;
+  aspect-ratio: 4/3;
+  object-fit: cover;
+}
+
+.nospains-card h2 {
+  margin-top: 0.8rem;
+  font-size: 1rem;
+  font-weight: 600;
+  color: #4B2E0D;
+}
+
+/* MOBILE */
+@media (max-width: 600px) {
+  .nospains-grid {
+    grid-template-columns: 1fr;
+    gap: 0.8rem;
+  }
+
+  .nospains-title {
+    font-size: 1.7rem;
+  }
+
+  .nospains-card h2 {
+    font-size: 0.95rem;
+  }
+}
+
+@media (max-width: 480px) {
+  .nospains-grid {
+    gap: 0.6rem;
+  }
+
+  .nospains-card {
+    padding: 0.3rem;
+  }
+
+  .nospains-card h2 {
+    font-size: 0.85rem;
+  }
+}

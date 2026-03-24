@@ -1,0 +1,84 @@
+/* Layout */
+.accueil-main {
+  margin-top: 80px;
+  min-height: 100vh;
+  background: linear-gradient(135deg, #fdf4f8 0%, #fce7d0 50%, #f9e4b7 100%);
+  font-family: 'Inter', Arial, sans-serif;
+}
+
+/* HERO */
+.hero {
+  padding: 6rem 1.5rem;
+  text-align: center;
+  color: #441302;
+}
+
+.hero h1 {
+  font-size: clamp(2rem, 7vw, 4rem);
+  margin-bottom: 1.5rem;
+}
+
+.hero-text {
+  font-size: clamp(1.1rem, 3vw, 1.6rem);
+  margin-bottom: 2.5rem;
+}
+
+/* ✅ BOUTON */
+.cta-appeler {
+  display: inline-block;
+  padding: 1rem 2.5rem;
+  background: #16a34a;
+  color: white;
+  font-weight: bold;
+  font-size: 1.2rem;
+  border-radius: 50px;
+  text-decoration: none;
+  box-shadow: 0 10px 30px rgba(22,163,74,0.4);
+}
+
+/* INFOS */
+.infos {
+  padding: 4rem 1.5rem;
+  background: white;
+}
+
+.infos-container {
+  max-width: 1000px;
+  margin: 0 auto;
+  text-align: center;
+}
+
+.infos-grid {
+  display: grid;
+  gap: 2rem;
+  max-width: 600px;
+  margin: 0 auto;
+}
+
+.box-specialites {
+  background: #fed7aa;
+  padding: 2rem;
+  border-radius: 20px;
+}
+
+/* ===================== */
+/* 📱 MOBILE FIX (IMPORTANT) */
+/* ===================== */
+
+@media (max-width: 380px) {
+
+  .cta-appeler {
+    font-size: 1rem;
+    padding: 0.8em 1.2em;
+
+    width: 92vw;
+    max-width: 300px;
+
+    display: block;
+    margin: 0 auto;
+
+    white-space: normal;
+    word-break: break-word;
+  }
+
+}
